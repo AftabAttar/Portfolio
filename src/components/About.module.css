@@ -1,0 +1,93 @@
+.about{
+    width: 95%;
+    height: auto;
+    display: flex;
+    font-family: Lato, sans-serif;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+
+.myInfo{
+    width: 70%;
+    height: auto;
+    
+    padding-left: 20px;
+
+}
+
+
+
+.resumeBtn{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #1976D2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.resumeBtn a{
+    color: white;
+    text-decoration: none;
+}
+
+.resumeBtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 150px;
+    font-size: 14px;
+
+}
+
+.imgFD{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgFD img{
+    height: 180px;
+}
+
+@media only screen and (max-width:1000px) {
+    .imgFD img{
+        height: 120px;
+    }
+}
+
+
+
+@media only screen and (max-width:700px) {
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 95%;
+        height: auto; 
+        
+    }
+    .myInfo{
+        width: auto;
+        height: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        flex-wrap: wrap;
+        
+    }
+    .imgFD{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgFD img{
+        height: 150px;
+    }
+}

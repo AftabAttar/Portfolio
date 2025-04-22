@@ -1,0 +1,101 @@
+
+
+.education{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.educationHeading{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.educationHeading h3{
+    padding-left: 10px;
+}
+
+.course{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.courseName{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.courseName img{
+    height: 70px;
+}
+
+.collegeName{
+    margin-left: 10px;
+}
+
+.passOut{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.passOut h3{
+    padding-right: 20px;
+}
+
+@media only screen and (max-width:1000px) {
+    .collegeName p{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .course{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .courseName{
+        width: 100%;
+        height: auto;
+        
+    }
+    .courseName img{
+        height: 50px;
+    }
+    .collegeName{
+        height: auto;
+    }
+    .collegeName h3{
+        font-size: 14px;
+    }
+    .collegeName p{
+        font-size: 12px;
+    }
+    .passOut{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .passOut h3{
+        font-size: 14px;
+        
+    }
+}

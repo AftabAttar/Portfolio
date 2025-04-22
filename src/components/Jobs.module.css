@@ -1,0 +1,20 @@
+.jobs{
+    width: 95%;
+    height: 150px;
+    color: white;
+    margin-top: 10px;
+}
+
+.jobs h2{
+    padding-left: 10px;
+}
+
+.jobInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.searchIcon{
+    font-size: 50px;
+}

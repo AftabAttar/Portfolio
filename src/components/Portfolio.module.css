@@ -1,0 +1,30 @@
+/*.portfolio{
+    width: 80vw;
+    height: 90vh;
+    background-color: #242424;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    backdrop-filter: blur(50%);
+   
+}*/
+.portfolio {
+    width: 80vw;
+    height: 90vh;
+    background-color: rgba(36, 36, 36, 0.8); /* Add transparency for backdrop-filter */
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    backdrop-filter: blur(10px); /* Use pixel value instead of percentage */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    position: relative; /* Needed for proper stacking context */
+    z-index: 1; /* Ensure it's above other elements */
+}
+
+@media only screen and (max-width:700px){
+    .portfolio{
+        width: 90vw;
+    }
+}
