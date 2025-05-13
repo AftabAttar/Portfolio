@@ -36,11 +36,6 @@ const Skills = forwardRef((props, ref) => {
           <img src={gitIcon} alt="GIT logo" />
           <h4>Git</h4>
         </div>
-
-        <div className={styles.skillInfo}>
-          <img src={linuxIcon} alt="GIT logo" />
-          <h4>Linux</h4>
-        </div>
       </div>
     </div>
   );
