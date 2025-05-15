@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 export default function About() {
   const resumeUrl =
-    "https://drive.google.com/file/d/1cqzml2xd2O9hdcvHU4sW03X5xR4reJ10/view?usp=sharing";
+    "https://drive.google.com/file/d/1yV8qzrtDwjLzKNfYdCPo8uyXBzOOEbjT/view?usp=sharing";
 
   const handleDownload = () => {
     const link = document.createElement("a");
